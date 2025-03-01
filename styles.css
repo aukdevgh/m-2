@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#background-video {
+   width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.text-container {
+    position: fixed;
+    inset: 0;
+    color: white;
+    text-wrap: balance;
+    font-size: 80px;
+    z-index: 1;
+    background: rgba(0, 0, 0); 
+}
+
+.video-element {
+    position: relative;
+    height: 80px;
+    max-width: 50vw;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #fefefe;
+    overflow: hidden;
+}
